@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Dark Mode */
+.kanban-board.dark {
+  background-color: #333;
+  color: white;
+}
+
+.kanban-board.dark .task-column {
+  background-color: #444;
+}
+
+.kanban-board.dark .task-card {
+  background-color: #555;
+}
+
+.kanban-board .task-form input,
+.kanban-board .task-form textarea {
+  padding: 8px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+/* Kanban Styles */
+.kanban-board {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.task-column {
+  width: 30%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-column h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.task-card {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-card:hover {
+  background-color: #f0f0f0;
+}
+
+.task-form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color: #45a049;
+}
+
+.toggle-theme {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
